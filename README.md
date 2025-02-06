@@ -15,11 +15,11 @@ tracking-map用于跟踪Ascend NPU适配一些热门生态工具的进展
 
 #### IntrernLMv3发布后0 day支持NPU
 
-- 首先令xtuner支持NPU: https://github.com/InternLM/xtuner/pull/983
+- 在-1 day令xtuner原生支持Ascend NPU: https://github.com/InternLM/xtuner/pull/983
 - NPU中使用InternLMv3快速上手指导: https://github.com/InternLM/InternLM/pull/816
-    - 组织PR并贡献了基于huggingface-transformers直接推理的脚本
-    - 在-1 day让xtuner在Ascend NPU原生支持，并在InternLMv3发布当天即完成在xtuner的LoRA微调验证
-    - 贡献了基于llama-factory的微调脚本，并在发布当天完成InternLMv3精度和性能的验证
+    - 贡献基于huggingface-transformers直接推理的脚本
+    - 基于已适配的xtuner，在InternLMv3发布当天即完成在xtuner的LoRA微调验证
+    - 贡献基于llama-factory的微调脚本，并在发布当天完成InternLMv3精度和性能的验证
 
 #### RL工具探索
 
