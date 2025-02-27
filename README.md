@@ -24,4 +24,4 @@ tracking-map用于跟踪Ascend NPU适配一些热门生态工具的进展
 #### RL工具探索
 
 - OpenRLHF原生支持NPU: https://github.com/OpenRLHF/OpenRLHF/pull/605
-- veRL原生支持NPU: https://github.com/volcengine/verl/compare/main...as12138:verl:main
+- veRL原生支持NPU: https://github.com/volcengine/verl/pull/332
