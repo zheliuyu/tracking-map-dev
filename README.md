@@ -12,8 +12,14 @@ tracking-map用于跟踪pt-ecosystem小组在Ascend NPU适配一些热门生态�
 - [以llama-factory为例，快速使用Qwen2.5-7B-Instruct模型完成一个微调任务](https://modelers.cn/models/PNP/Llama-Factory-Quick-Start)
 - [使用昇腾原生支持生态库llama-factory做法律垂域模型微调](https://modelers.cn/models/PNP/Enhance-Llama-Factory-SFT-Law)
 
-### 2、后来，这系列文章被整合，并发到了官网公众号宣传
+### 2、后来，上述文章被整合，并发到了官网公众号宣传
  - 文章标题：[基于应用使能套件的行业模型微调实践](https://mp.weixin.qq.com/s/7ocVjwX1k4xF6AaUkj-6vg)
+
+### 3、ModelZoo-PyTorch经典模型库
+- 规定[随版本演进模型](https://gitee.com/ascend/ModelZoo-PyTorch/pulls/6964)范围
+- 优化[环境变量](https://gitee.com/ascend/ModelZoo-PyTorch/pulls/6943)说明
+- 新增代码提交[规范](https://gitee.com/ascend/ModelZoo-PyTorch/pulls/7079)
+- 随版本演进模型每季度刷新性能[基线](https://gitee.com/ascend/ModelZoo-PyTorch/pulls/7230)
 
 
 ## 25年Q1
@@ -65,13 +71,14 @@ tracking-map用于跟踪pt-ecosystem小组在Ascend NPU适配一些热门生态�
 ### 4、ascend-ring-attention项目
 - 提供ascend npu的ring-attention支持：https://github.com/ji-huazhong/ring-attention-ascend/pull/1
 
+
 ## 25年Q3
-### 1、在RL场景中vllm-ascend需要一些独特的修改（持续）
+### 1、在RL场景中vllm-ascend需要一些独特的修改（继承q2，持续）
 - 配套torch_npu升级：https://github.com/vllm-project/vllm-ascend/issues/1390
 - DFX-澄清报错信息：https://github.com/vllm-project/vllm-ascend/issues/1706
 - 修复Qwen2.5-VL场景功能缺失：https://github.com/vllm-project/vllm-ascend/pull/1705
 
-### 2、veRL原生支持NPU
+### 2、veRL原生支持NPU（继承q2，持续）
  - verl Q3 RoadMap：https://github.com/volcengine/verl/discussions/2171
  - 支持SFT：https://github.com/volcengine/verl/pull/2240
  - 支持ray actor sharing situation：https://github.com/volcengine/verl/pull/2341
