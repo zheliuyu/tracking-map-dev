@@ -21,6 +21,9 @@ tracking-map用于跟踪pt-ecosystem小组在Ascend NPU适配一些热门生态�
 - 新增代码提交[规范](https://gitee.com/ascend/ModelZoo-PyTorch/pulls/7079)
 - 随版本演进模型每季度刷新性能[基线](https://gitee.com/ascend/ModelZoo-PyTorch/pulls/7230)
 
+### 4、ModelZoo-GPL下YOLO系模型
+- 以[YOLOv8](https://gitee.com/ascend/modelzoo-GPL/tree/master/built-in/PyTorch/Official/cv/object_detection/Yolov8_for_PyTorch)为例示范迁移模型和调优路径
+
 
 ## 25年Q1
 ### 1、IntrernLMv3发布后0 day支持xtuner npu
