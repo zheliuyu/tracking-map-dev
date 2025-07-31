@@ -45,11 +45,10 @@ tracking-map用于跟踪pt-ecosystem小组在Ascend NPU适配一些热门生态�
 - Q2 RoadMap：https://github.com/OpenRLHF/OpenRLHF/issues/914
 - 因OpenRLHF没有支持第三方device计划，后续转为此项目维护：[pt-ecosystem/OpenRLHF-NPU](https://github.com/pt-ecosystem/OpenRLHF-NPU)
 
-### 4、尝试在transformers中原生支持npu亲和加速kernels
+### 4、transformers中原生支持sdpa和flash-attention
 - 尝试在transformers中开启SDPA：[PR1](https://github.com/huggingface/transformers/pull/35165)、[PR2](https://github.com/huggingface/transformers/pull/36383)
 - transformers原生支持npu的flash attention：[PR1](https://github.com/huggingface/transformers/pull/36696)、[PR2](https://github.com/huggingface/transformers/pull/37698)
 、[PR3](https://github.com/huggingface/transformers/pull/38278)
-- 除FA外其他加速kernels的加入：[ISSUE](https://github.com/huggingface/transformers/issues/39105)
 
 ## 25年Q2
 ### 1、NPU支持使用OpenFold
@@ -91,6 +90,10 @@ tracking-map用于跟踪pt-ecosystem小组在Ascend NPU适配一些热门生态�
 - Refactor：[Refactor1](https://github.com/volcengine/verl/pull/2542)、[Refactor2](https://github.com/volcengine/verl/pull/1974)
 - Fix：[Fix1](https://github.com/volcengine/verl/pull/2459)、[Fix2](https://github.com/volcengine/verl/pull/2576)、[Fix3](https://github.com/volcengine/verl/pull/2541)、[Fix4](https://github.com/volcengine/verl/pull/2477)、[Fix5](https://github.com/volcengine/verl/pull/2459)、[Fix6](https://github.com/volcengine/verl/pull/2291)
 
+### 3、transformers中集成其他npu融合算子
+- 跟踪issue：https://github.com/huggingface/transformers/issues/39105
+- 第1个PR尝试，可作为临时解决方案：https://github.com/huggingface/transformers/pull/39238
+- 使用kernels工具重构：等待更新
 
 
 # 三、pt-ecosystem小组成员
