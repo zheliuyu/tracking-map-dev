@@ -96,6 +96,9 @@ tracking-map用于跟踪pt-ecosystem小组在Ascend NPU适配一些热门生态�
 - 第1个PR尝试，可作为临时解决方案：https://github.com/huggingface/transformers/pull/39238
 - 使用kernels工具重构：等待更新
 
+### 4、SGLang + verl工作
+- 跟踪issue：https://github.com/volcengine/verl/issues/2916
+
 
 # 三、pt-ecosystem小组成员
 24年10月-至今，参与pt-ecosystem适配工作的成员包含:
