@@ -90,6 +90,7 @@ tracking-map用于跟踪pt-ecosystem小组在Ascend NPU适配一些热门生态�
 - 增强CI能力：https://github.com/volcengine/verl/pull/2089
 - Refactor：[Refactor1](https://github.com/volcengine/verl/pull/2542)、[Refactor2](https://github.com/volcengine/verl/pull/1974)
 - Fix：[Fix1](https://github.com/volcengine/verl/pull/2459)、[Fix2](https://github.com/volcengine/verl/pull/2576)、[Fix3](https://github.com/volcengine/verl/pull/2541)、[Fix4](https://github.com/volcengine/verl/pull/2477)、[Fix5](https://github.com/volcengine/verl/pull/2459)、[Fix6](https://github.com/volcengine/verl/pull/2291)、[Fix7](https://github.com/volcengine/verl/pull/3052)
+- 关于doc：https://github.com/volcengine/verl/pull/3127
 
 ### 3、transformers中集成其他npu融合算子
 - 跟踪issue：https://github.com/huggingface/transformers/issues/39105
