@@ -88,6 +88,7 @@ tracking-map用于跟踪pt-ecosystem小组在Ascend NPU适配一些热门生态�
 - 增加Profiling指导：https://github.com/volcengine/verl/pull/2514
 - profiling discrete模式下支持按阶段采集：https://github.com/volcengine/verl/pull/2750
 - 增强CI能力：https://github.com/volcengine/verl/pull/2089
+- 添加融合算子：https://github.com/volcengine/verl/pull/3260
 - Refactor：https://github.com/volcengine/verl/pull/2542, https://github.com/volcengine/verl/pull/1974
 - Fix：https://github.com/volcengine/verl/pull/2459,https://github.com/volcengine/verl/pull/2576, https://github.com/volcengine/verl/pull/2541, https://github.com/volcengine/verl/pull/2477, https://github.com/volcengine/verl/pull/2291, https://github.com/volcengine/verl/pull/3052
 - 关于doc：https://github.com/volcengine/verl/pull/3063, https://github.com/volcengine/verl/pull/3127
