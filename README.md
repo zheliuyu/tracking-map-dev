@@ -96,7 +96,7 @@ tracking-map用于跟踪pt-ecosystem小组在Ascend NPU适配一些热门生态�
 ### 3、transformers中集成其他npu融合算子
 - 跟踪issue：https://github.com/huggingface/transformers/issues/39105
 - 第1个PR尝试，可作为临时解决方案：https://github.com/huggingface/transformers/pull/39238
-- 使用kernels工具重构：等待更新
+- 使用kernels工具重构：kernels现已原生支持NPU-https://github.com/huggingface/kernels/pull/146
 
 ### 4、SGLang + verl工作
 - 跟踪issue：https://github.com/volcengine/verl/issues/2916
