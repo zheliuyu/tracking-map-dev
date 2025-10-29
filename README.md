@@ -1,3 +1,5 @@
+项目持续时间：2024年10月-2025年10月。当前此页已停止维护。
+
 # 一、简介
 tracking-map用于跟踪pt-ecosystem小组在Ascend NPU适配一些热门生态工具的进展。
 
@@ -107,7 +109,7 @@ tracking-map用于跟踪pt-ecosystem小组在Ascend NPU适配一些热门生态�
 
 
 # 三、pt-ecosystem小组成员
-24年10月-至今，参与pt-ecosystem适配工作的成员包含:
+24年10月-25年10月，参与pt-ecosystem适配工作的成员包含:
 - [@zheliuyu](https://github.com/zheliuyu)
 - [@FightingZhen](https://github.com/FightingZhen)
 - [@zhuo97](https://github.com/zhuo97)
