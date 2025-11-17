@@ -14,5 +14,7 @@
 - huggingface/kernels原生支持：
     - https://github.com/huggingface/kernels/pull/146
     - https://github.com/huggingface/kernels/pull/155
-- huggingface/transformers中支持通过kernels加载算子：https://github.com/huggingface/transformers/pull/42106
+- huggingface/transformers中支持通过kernels加载算子
+    - https://github.com/huggingface/transformers/pull/41542
+    - https://github.com/huggingface/transformers/pull/42106
 - kernels在npu中使用的一些指导文档：https://github.com/pt-ecosystem/kernels-ext-npu
