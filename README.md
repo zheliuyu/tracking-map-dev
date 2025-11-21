@@ -9,7 +9,7 @@
 
 ## 25年11月
 
-### huggingface/kernels及其衍生工具
+### huggingface/kernels 及其衍生工具
 
 - huggingface/kernels原生支持：
     - https://github.com/huggingface/kernels/pull/146
@@ -18,3 +18,5 @@
     - https://github.com/huggingface/transformers/pull/41542
     - https://github.com/huggingface/transformers/pull/42106
 - kernels在npu中使用的一些指导文档：https://github.com/pt-ecosystem/kernels-ext-npu
+
+### Liger-kernel 的原生支持
