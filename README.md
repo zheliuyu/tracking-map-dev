@@ -17,6 +17,7 @@
 - huggingface/transformers中支持通过kernels加载算子
     - https://github.com/huggingface/transformers/pull/41542
     - https://github.com/huggingface/transformers/pull/42106
+    - https://github.com/huggingface/transformers/pull/42358
 - kernels在npu中使用的一些指导文档：https://github.com/pt-ecosystem/kernels-ext-npu
 
 ### Liger-kernel 的原生支持
