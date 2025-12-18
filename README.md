@@ -18,6 +18,7 @@
     - https://github.com/huggingface/transformers/pull/41542
     - https://github.com/huggingface/transformers/pull/42106
     - https://github.com/huggingface/transformers/pull/42358
+    - https://github.com/huggingface/transformers/pull/42800
 - kernels在npu中使用所依赖的hub中各kernel的源码：https://github.com/pt-ecosystem/kernels-ext-npu
 
 ### Liger-kernel 的原生支持
